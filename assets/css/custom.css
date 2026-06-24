@@ -1,0 +1,134 @@
+/* ===========================
+      KWANELE PORTFOLIO
+=========================== */
+
+:root{
+
+--purple:#8B5CF6;
+
+--purple-dark:#6D28D9;
+
+--black:#0F172A;
+
+--grey:#1E293B;
+
+--white:#FFFFFF;
+
+}
+
+/* Background */
+
+body{
+
+background:linear-gradient(135deg,#111827,#1F2937);
+
+}
+
+/* Main page */
+
+#main{
+
+background:#FFFFFF;
+
+border-radius:20px;
+
+}
+
+/* Navigation */
+
+#nav{
+
+background:#111827;
+
+}
+
+/* Active page */
+
+#nav ul.links li.active{
+
+background:var(--purple);
+
+}
+
+/* Hover */
+
+#nav ul.links li:hover{
+
+background:var(--purple-dark);
+
+}
+
+/* Logo */
+
+#header .logo{
+
+border-color:var(--purple);
+
+}
+
+#header .logo:hover{
+
+background:var(--purple);
+
+}
+
+/* Buttons */
+
+.button{
+
+background:var(--purple)!important;
+
+border:none!important;
+
+color:white!important;
+
+border-radius:10px;
+
+}
+
+.button:hover{
+
+background:var(--purple-dark)!important;
+
+transform:translateY(-4px);
+
+}
+
+/* Cards */
+
+.posts article{
+
+border-radius:18px;
+
+overflow:hidden;
+
+box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+transition:.35s;
+
+}
+
+.posts article:hover{
+
+transform:translateY(-10px);
+
+}
+
+/* Images */
+
+.image{
+
+overflow:hidden;
+
+}
+
+.image img{
+
+transition:.5s;
+
+}
+
+.image:hover img{
+
+transform:scale(1.05);
+}
